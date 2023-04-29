@@ -39,4 +39,9 @@ download_button.addEventListener('click',()=>{
         alert("Empty QR")
     }
 })
-     
+
+input_field.addEventListener('keydown',(e)=>{
+ if(e.key==="Enter" & input_field!==""){
+    qr_code_info();
+ }
+})
