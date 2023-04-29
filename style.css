@@ -97,7 +97,3 @@ button:hover{
     margin-right: 1rem;
     outline: none;
 }
-
-.noneclass{
-    pointer-events: none;
-  }

@@ -1,10 +1,10 @@
-console.log("checking")
-const input_field=document.querySelector('[data-input-field]');
-const select_sizes=document.querySelector('[data-select-sizes]');
-const qr_image=document.querySelector('[data-qr-image]');
-const generate_button=document.querySelector('[data-generate-button]');
-const download_button=document.querySelector('[data-download-button]')
-const qr_image_container=document.querySelector('.qr-image-container')
+const input_field = document.querySelector('[data-input-field]');
+const select_sizes = document.querySelector('[data-select-sizes]');
+const qr_image = document.querySelector('[data-qr-image]');
+const generate_button = document.querySelector('[data-generate-button]');
+const download_button = document.querySelector('[data-download-button]');
+const qr_image_container = document.querySelector('[data-qr-image-container]');
+
 
 
 let size=select_sizes;
@@ -25,19 +25,24 @@ const qr_code_info=()=>{
 
 generate_button.addEventListener('click',()=>{
     qr_image_container.innerText="";
-    qr_code_info();
+    input_field = input_field .value==="" ? alert("Input filed is empty"): qr_code_info();
 })
 
 download_button.addEventListener('click',()=>{
-    let qr_body_img=document.querySelector('.qr-image-container img')
+    const qr_body_img = document.querySelector('.qr-image-container img');
     if( qr_body_img!== null){
-        let qr_body_img=document.querySelector('.qr-image-container img')
         let img_src = qr_body_img.getAttribute('src');
         download_button.setAttribute('href', img_src);
     }
     else{
         alert("Empty QR")
     }
+
+    // qr_body_img !== null
+    //? download_button.setAttribute('href', qr_body_img.getAttribute('src'))
+    //: alert("Empty QR");
+
+     
 })
 
 input_field.addEventListener('keydown',(e)=>{
