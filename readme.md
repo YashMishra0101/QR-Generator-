@@ -22,7 +22,7 @@ To use the QR generator, simply enter the link or text you want to generate a QR
 
 To install the project, simply clone this repository to your local machine and open the index.html file in your web browser.
 
-git clone https://github.com/your-yashmishra0101/qr-generator.git
+git clone https://github.com/YashMishra0101/QR-Generator-
 
 
 ## Conclusion
