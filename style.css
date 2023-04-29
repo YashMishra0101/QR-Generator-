@@ -1,0 +1,103 @@
+ @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Slabo 13px', serif;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(242,143,186,1) 0%, rgba(98,163,238,1) 100%);
+}
+
+.qr-code-generator{
+    border: 2px solid rgb(28, 166, 221);
+    border-radius: 1rem;
+    background-color:rgb(200, 232, 244);
+    width: 22rem;
+    padding: 0.7rem;
+}
+
+header{
+    text-align: center;
+}
+
+header input{
+    all: unset;
+    padding:0.7rem;
+    border-radius: 0.5rem;
+    border:0.1rem solid grey;
+    margin-top: 1rem;
+    width: 76%;
+}
+
+.qr-size-selection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: large;
+}
+
+.qr-size-selection select{
+    border:0.1rem solid gray;
+    border-radius: 1rem;
+    padding: 0.1rem;
+    text-align: center;
+    outline: none;
+    color: black;
+    padding:0.2rem 0.3rem;
+}
+
+.qr-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.qr-image-container img{
+    max-width:80%;
+    max-height:80%;
+    box-shadow: rgb(46, 97, 151) 20px 20px 30px -10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content:center; 
+}
+
+ button {
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    border: 0.1rem solid gray;
+    color:black;
+    margin-top: 1rem;
+    user-select: none;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color:aliceblue;
+}
+
+.generate-button{
+    margin-right: 1rem;
+    outline: none;
+}
+
+.noneclass{
+    pointer-events: none;
+  }
