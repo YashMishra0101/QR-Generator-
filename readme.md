@@ -25,6 +25,18 @@ To install the project, simply clone this repository to your local machine and o
 git clone https://github.com/YashMishra0101/QR-Generator-
 
 
+## Contributing 
+
+If you would like to contribute to in this , please open an issue or submit a pull request. All contributions are welcome!
+
+
+## Contact 
+
+If you have any questions or suggestions, please feel free to contact me on:
+
+- LinkedIn: https://www.linkedin.com/in/yash-mishra-356280223
+- Twitter: https://twitter.com/YashRKMishra1
+
 ## Conclusion
 
 This project was a lot of fun to make and a great way to practice my web development skills. I hope you find it useful and enjoyable to use. If you have any feedback or suggestions, feel free to leave a comment or create a pull request.
