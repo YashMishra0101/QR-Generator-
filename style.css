@@ -106,16 +106,10 @@ button:hover{
 }
 
 @media only screen and (max-width:376px) {
-    .qr-image-container{
-        max-width:10rem;
-        max-height:10rem;
-        margin-left:5.5rem;
+    .qr-image-container img{
+        max-width:50%;
+        max-height:50%;
     }
-  }
+}
 
-  @media only screen and (max-width:320px) {
-    .qr-image-container{
-        margin-right:5rem;
-    }
-  }
   
