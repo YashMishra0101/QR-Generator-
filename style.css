@@ -65,6 +65,7 @@ header input{
     max-width:80%;
     max-height:80%;
     box-shadow: rgb(46, 97, 151) 20px 20px 30px -10px;
+    background-attachment: red;
 }
 
 
@@ -97,3 +98,18 @@ button:hover{
     margin-right: 1rem;
     outline: none;
 }
+
+@media (max-width:320px){
+    .qr-code-generator{
+        width:19rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .qr-image-container{
+        max-width:60%;
+        max-height:60%;
+        margin-left:3.6rem;
+    }
+  }
+  
