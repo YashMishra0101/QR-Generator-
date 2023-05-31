@@ -1,7 +1,7 @@
 # QR Generator 
 
 ![Screenshot](./screenshot/Screenshot%20(265).png)
-![Screenshot](./screenshot/Screenshot (266).png")
+![Screenshot](./screenshot/Screenshot%20(266).png)
 
 
 
