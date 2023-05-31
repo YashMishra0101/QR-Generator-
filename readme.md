@@ -1,8 +1,9 @@
 # QR Generator 
 
 ![Screenshot](./screenshot/Screenshot%20(265).png)
+![Screenshot](./screenshot/Screenshot (266).png")
 
-<img src="./screenshot/Screenshot (266).png">
+
 
 ## Introduction
 
